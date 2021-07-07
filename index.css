@@ -9,13 +9,12 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
 }
-th,
-td {
-  padding: 15px;
-}
 .BlueColor {
-  background-color: #87ceeb;
+  background-color: #ccc;
 }
 .Boldfont {
   font-weight: bold;
+}
+.Smallfont {
+  font-size: 1px;
 }
