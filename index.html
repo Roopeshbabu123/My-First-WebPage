@@ -6,7 +6,27 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-
+<h3><mark> SVG Tag training </mark></h3>
+    <svg height="100" width="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <svg>
+      <rect cx="50" width="500" height="400" stroke="black" stroke-width="3" fill="green" />
+    </svg>
+    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="smallGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+          <path d="M 8 0 L 0 0 0 8" fill="none" stroke="gray" stroke-width="0.5"/>
+        </pattern>
+        <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+          <rect width="80" height="80" fill="url(#smallGrid)"/>
+          <path d="M 80 0 L 0 0 0 80" fill="none" stroke="gray" stroke-width="1"/>
+        </pattern>
+      </defs>
+</svg>
+      <!-- <iframe src="demo.html" width="500" height="500"></iframe> -->
+  <br/>
+  <h3><mark>Audio and video training</mark></h3>
     <audio controls autoplay muted>
       <source src="audio/file_example_MP3_700KB.mp3" type="audio/mp3" />
     </audio>
@@ -14,7 +34,7 @@
     <video controls autoplay muted>
       <source src="audio/file_example_MP4_480_1_5MG.mp4" type="video/mp4" />
     </video>
-
+    <h3><mark> Forms assignment </mark></h3>
     <form>
 <label>FirstName</label>
 <input type="text" name="FirstName">
@@ -39,16 +59,8 @@
     </form>
     <br>
     <br>
-<form>
-  <label>Selct a number</label>
-  <input type="radio" name="num" value="1">
-  <label>1</label>
-  <input type="radio" name="num" value="2">
-  <label>2</label>
-  <input type="radio" name="num" value="3">
-  <label>3</label>
-  
-</form>
+
+    <h3><mark>Table assignment</mark></h3>
    
   <table>
     <tr>
@@ -93,7 +105,7 @@
   </table>
   
   
-  
+  <h3><Mark>Tags training pratice</Mark></h3>
     <a href="https://www.google.com/" target="_blank">Google Redirect</a>
     <img
       src="https://image.shutterstock.com/image-vector/sample-stamp-grunge-texture-vector-260nw-1389188336.jpg"
