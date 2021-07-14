@@ -1,17 +1,186 @@
-p {
-  font-size: small;
-  font-family: Georgia, "Times New Roman", Times, serif;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-table,
-td,
-th {
-  padding: 10px;
-  border: 1px solid black;
-  border-collapse: collapse;
+
+.mainnav {
+  width: 100%;
+  height: 60px;
+  background-color: red;
 }
-.BlueColor {
-  background-color: #ccc;
+.textleft {
+  float: left;
+  text-decoration: none;
+  padding: 25px 5px;
+  letter-spacing: 4px;
+  padding-left: 150px;
+  color: white;
 }
-.Boldfont {
+.textright {
+  float: right;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-right: 80px;
+  letter-spacing: 3px;
+  color: white;
+  word-spacing: 3px;
+}
+.imgbut {
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+}
+.container {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  font-family: Arial;
+  /* height: 150px; */
+}
+
+.text-block {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  padding-left: 70px;
+  padding-right: 20px;
+}
+.paraleft {
+  float: left;
+  padding: 50px 50px 20px 150px;
+}
+.pararight {
+  float: right;
+  padding-top: 65px;
+  padding-right: 165px;
+  max-width: 50%;
+}
+.smallpara {
+  font-size: 18px;
+}
+
+.secondcontainer {
+  /* padding: 0px;
+  float: left; */
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  /* height: 150px; */
+}
+
+.secondtext-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: left;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.middletext {
+  padding: 100px 10px 70px 700px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.middlepara {
+  padding-left: 700px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagebutton1 {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  border-radius: 3px;
+  color: black;
   font-weight: bold;
+}
+.imagebutton1:hover {
+  background-color: red;
+}
+.imagebutton2 {
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  border-radius: 3px;
+  color: black;
+  /* padding: 70px 20px 10px 500px; */
+  font-weight: bold;
+}
+.imagebutton2:hover {
+  background-color: red;
+}
+
+.hrrows {
+  float: left;
+  display: flex;
+  padding: 70px;
+}
+.hrrow1 {
+  padding-left: 70px;
+}
+.hrrow2 {
+  padding-left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.hrdiv1 {
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.ImageText {
+  display: flex;
+}
+.Products {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  margin-left: 70px;
+  height: 300px;
+  width: 300px;
+}
+
+.Lastparagraph {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 900px;
+  border: 1px solid black;
+  background-color: black;
+  width: 900px;
+  font-size: 30px;
+}
+.lastparagraphtext {
+  color: white;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.lastparatext {
+  padding-left: 200px;
+  color: white;
+  font-size: 17px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: gray;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.footerpart {
+  display: flex;
+}
+
+.footerfirstdiv {
+  padding-left: 160px;
+  padding-top: 60px;
 }
